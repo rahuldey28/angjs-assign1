@@ -25,7 +25,7 @@ $scope.displayMsg= function() {
   else if (totalFoodItem > 3){
 
      $scope.finalMsg ="Too Much!";
-$scope.style={"color":'green'};
+     $scope.style={"color":'green'};
   }
 
 

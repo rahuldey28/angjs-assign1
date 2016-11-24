@@ -14,18 +14,18 @@ $scope.displayMsg= function() {
   if (totalFoodItem == 1){
 
       $scope.finalMsg ="Please enter data first";
-      $scope.style={"color":'red',"border-color":"red"};
+      $scope.style={"color":'red'};
   }
   else if (totalFoodItem > 1 && totalFoodItem <= 3){
 
       $scope.finalMsg ="Enjoy!";
-      $scope.style={"color":'green',"border-color":"green"};
+      $scope.style={"color":'green'};
 
     }
   else if (totalFoodItem > 3){
 
      $scope.finalMsg ="Too Much!";
-$scope.style={"color":'green',"border-color":"green"};
+$scope.style={"color":'green'};
   }
 
 
